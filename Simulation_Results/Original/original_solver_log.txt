@@ -1,0 +1,91 @@
+baseline_started=2026-10-29 17:42:46 +0800
+model=Pressure_Sensor_Original.mph
+p1=100[kPa]
+terminal1_type=Voltage
+terminal1_v0=3
+study=std1/stat; solver=sol1; mesh=mesh1
+solve_action=study_std1_run
+solve_status=completed
+ecs.I0_1_A=0.00592093331699112
+ecs.V0_2_minus_ecs.V0_3_V=-0.05392765688904322
+current_reference_A=0.0059
+voltage_reference_magnitude_V=0.054
+current_relative_error_percent=0.3548019829003369
+voltage_magnitude_relative_error_percent=-0.13396872399403884
+STATUS=ERROR
+Exception:
+	com.comsol.util.exceptions.UnexpectedServerException: java.lang.IllegalStateException: java.io.IOException: 无法保存模型。文件 'Pressure Sensor Original.mph' 已被其他模型锁定。
+	(rethrown as com.comsol.util.exceptions.FlException)
+Messages:
+	java.lang.IllegalStateException: java.io.IOException: 无法保存模型。文件 'Pressure Sensor Original.mph' 已被其他模型锁定。
+
+Stack trace:
+	at com.comsol.bridge.command.b.a(SourceFile:155)
+	at com.comsol.bridge.command.b.run(SourceFile:90)
+	at com.comsol.bridge.command.i.execute(SourceFile:46)
+	at com.comsol.bridge.command.j.d(SourceFile:719)
+	at com.comsol.bridge.command.j.a(SourceFile:707)
+	at com.comsol.bridge.command.j$3.a(SourceFile:608)
+	at com.comsol.bridge.command.j$3.call(SourceFile:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+sweep_started=2026-10-29 17:46:35 +0800
+model=Pressure_Sensor_Original.mph
+p1_before_sweep=100[kPa]
+terminal1_type=Voltage
+terminal1_v0=3
+snapshot_saved=D:/Github_codes/Flexible_Conductive_Film_CourseDesign_UESTC_24/COMSOL_Models/Pressure_Sensor_Original_pre_sweep_20261029_1745.mph
+parametric_sweep_action=created_param
+parametric_parameter=p1
+STATUS=ERROR
+Exception:
+	com.comsol.util.exceptions.FlException: Property X cannot be converted to string#plistarr
+Messages:
+	属性“plistarr”无法转换为字符串。
+
+Stack trace:
+	at com.comsol.nativeutil.properties.Property.getString(SourceFile:512)
+	at com.comsol.model.data.primitive.PropValuePrim.getString(SourceFile:2063)
+	at com.comsol.model.dbmodel.PropFeatureDb.g(SourceFile:1059)
+	at com.comsol.model.dbmodel.PropFeatureDb.getString(SourceFile:912)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.comsol.bridge.command.b.a(SourceFile:145)
+	at com.comsol.bridge.command.b.run(SourceFile:90)
+	at com.comsol.bridge.command.i.execute(SourceFile:46)
+	at com.comsol.bridge.command.j.d(SourceFile:719)
+	at com.comsol.bridge.command.j.a(SourceFile:707)
+	at com.comsol.bridge.command.j$3.a(SourceFile:608)
+	at com.comsol.bridge.command.j$3.call(SourceFile:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+sweep_started=2026-10-29 17:47:33 +0800
+model=Pressure_Sensor_Original.mph
+p1_before_sweep=100[kPa]
+terminal1_type=Voltage
+terminal1_v0=3
+snapshot_saved=D:/Github_codes/Flexible_Conductive_Film_CourseDesign_UESTC_24/COMSOL_Models/Pressure_Sensor_Original_pre_sweep_20261029_1745.mph
+parametric_sweep_action=created_param
+parametric_parameter=p1
+parametric_list=0 25 50 75 100 125 150 175 200
+parametric_unit=kPa
+scan_action=study_std1_run
+scan_status=completed
+scan_point pressure_kPa=0 current_A=0.00592731290318520 voltage_V=3.99836994977587e-05
+scan_point pressure_kPa=25 current_A=0.00592530397265129 voltage_V=-0.0134602388965694
+scan_point pressure_kPa=50 current_A=0.00592357157194590 voltage_V=-0.0269534653837984
+scan_point pressure_kPa=75 current_A=0.00592211489992752 voltage_V=-0.0404418788284344
+scan_point pressure_kPa=100 current_A=0.00592093331699116 voltage_V=-0.0539276568890428
+scan_point pressure_kPa=125 current_A=0.00592002634393161 voltage_V=-0.0674129742334668
+scan_point pressure_kPa=150 current_A=0.00591939366111711 voltage_V=-0.0809000049467421
+scan_point pressure_kPa=175 current_A=0.00591903510797212 voltage_V=-0.0943909249371471
+scan_point pressure_kPa=200 current_A=0.00591895068276888 voltage_V=-0.107887914347579
+csv_saved=D:/Github_codes/Flexible_Conductive_Film_CourseDesign_UESTC_24/Simulation_Results/Original/original_pressure_sweep.csv
+model_saved=D:/Github_codes/Flexible_Conductive_Film_CourseDesign_UESTC_24/COMSOL_Models/Pressure_Sensor_Original.mph
+STATUS=SUCCESS

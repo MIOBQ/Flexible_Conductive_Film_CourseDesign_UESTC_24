@@ -1,0 +1,5 @@
+Attempted read-only post-processing on Pressure_Sensor_Serpentine_100kPa.mph.
+
+The COMSOL 5.6 temporary Surface plot of ecs.normJ was exported without modifying or saving the MPH model. The generated PNG was visually inspected and found blank (2,842 bytes), so it is NOT accepted as current-density evidence and must not be used to claim direct verification of the serpentine current path.
+
+The geometry/path evidence retained for this model is: successful Difference geometry construction, successful mesh, retained/evaluated electrical selections, finite stationary solutions, and the actual pressure-scan response. A GUI export or a correctly configured existing-result plot is still required for a publishable current-density cloud map.

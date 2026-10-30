@@ -1,0 +1,90 @@
+R,r1_type,Rectangle
+R,r1_contributeto,none
+R,r1_selresult,off
+R,r1_selresultshow,dom
+R,r1_color,none
+R,r1_customcolor,0, 0, 0
+R,r1_posconstr,off, off
+R,r1_pos,0 0
+R,r1_x,0
+R,r1_y,0
+R,r1_rotconstr,off
+R,r1_rot,45
+R,r1_type,solid
+R,r1_base,center
+R,r1_layerold,6.25
+R,r1_layername,Layer 1
+R,r1_layer,6.25
+R,r1_layerleft,on
+R,r1_layerright,on
+R,r1_layerbottom,off
+R,r1_layertop,off
+R,r1_lx,52.5
+R,r1_ly,10
+R,r1_sizeconstr,off, off
+R,r1_size,52.5, 10
+R,r1_arrowdispl,NaN, NaN
+R,r1_labelpos,0.5, 0.5
+R,r1_arrowint,on, on
+R,ecs_cucn1,[3, 5, 6, 8, 9, 13, 14, 15, 18]
+R,ecs_pzrm1,[9]
+R,ecs_term1,[11, 13]
+R,ecs_term2,[7]
+R,ecs_term3,[72, 73]
+R,ecs_gnd1,[70]
+R,shell_fl1,[2, 6, 7, 8, 9, 11, 12, 13, 15, 16]
+R,shell_fix1,[4, 5, 6, 14, 19, 23, 37, 48, 65, 69, 74, 76]
+R,shell_fix2,[3, 5, 14, 18]
+R,material_mat1,[1, 2, 4, 7, 10, 11, 12, 16, 17]
+R,material_mat2,[3, 5, 6, 8, 9, 13, 14, 15, 18]
+R,multiphysics,[pzrs1]
+P1,r1_type,Polygon
+P1,r1_contributeto,none
+P1,r1_selresult,off
+P1,r1_selresultshow,dom
+P1,r1_color,none
+P1,r1_customcolor,0, 0, 0
+P1,r1_type,solid
+P1,r1_tableconstr,
+P1,r1_source,table
+P1,r1_filename,
+P1,r1_tableexcelfilename,
+P1,r1_tableexcelsheet,
+P1,r1_tableexcelrange,
+P1,r1_tableexcelincludeheaders,off
+P1,r1_tableexcelseparateunits,off
+P1,r1_tableexceloverwrite,on
+P1,r1_tableexcelcalculatedvalues,off
+P1,r1_x,
+P1,r1_x_vector_method,step
+P1,r1_x_vector_start,
+P1,r1_x_vector_stop,
+P1,r1_x_vector_step,
+P1,r1_x_vector_numvalues,
+P1,r1_x_vector_function,none
+P1,r1_x_vector_interval,octave
+P1,r1_x_vector_freqperdec,
+P1,r1_y,
+P1,r1_y_vector_method,step
+P1,r1_y_vector_start,
+P1,r1_y_vector_stop,
+P1,r1_y_vector_step,
+P1,r1_y_vector_numvalues,
+P1,r1_y_vector_function,none
+P1,r1_y_vector_interval,octave
+P1,r1_y_vector_freqperdec,
+P1,r1_segid,1, 2, 3, 4
+P1,r1_addedrowidx,-1
+P1,r1_addedrow,
+P1,ecs_cucn1,[3, 5, 6, 8, 9, 13, 14, 15, 18]
+P1,ecs_pzrm1,[9]
+P1,ecs_term1,[11, 13]
+P1,ecs_term2,[7]
+P1,ecs_term3,[70, 71]
+P1,ecs_gnd1,[68]
+P1,shell_fl1,[2, 6, 7, 8, 9, 11, 12, 13, 14, 16]
+P1,shell_fix1,[4, 5, 6, 14, 19, 23, 35, 48, 63, 67, 72, 74]
+P1,shell_fix2,[3, 5, 15, 18]
+P1,material_mat1,[1, 2, 4, 7, 10, 11, 12, 16, 17]
+P1,material_mat2,[3, 5, 6, 8, 9, 13, 14, 15, 18]
+P1,multiphysics,[pzrs1]

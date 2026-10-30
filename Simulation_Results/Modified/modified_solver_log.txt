@@ -1,0 +1,21 @@
+started=2026-10-29 18:55:14 +0800
+model=Pressure_Sensor_Modified.mph
+terminal1_type=Voltage
+terminal1_v0=3
+parameter=p1; unit=kPa; values=0 25 50 75 100 125 150 175 200
+solve_action=std1_parametric_stationary
+solve_status=completed
+baseline_100kPa_current_relative_difference=3.1020404384218164E-15
+baseline_100kPa_voltage_relative_difference=0.0
+point pressure_kPa=0 current_mA=6.71783382498168 vout_mV=0.105197489024267
+point pressure_kPa=25 current_mA=6.71550430416702 vout_mV=-14.3599596694730
+point pressure_kPa=50 current_mA=6.71352975947317 vout_mV=-28.8174496018099
+point pressure_kPa=75 current_mA=6.71190914410685 vout_mV=-43.2696854662209
+point pressure_kPa=100 current_mA=6.71064163248376 vout_mV=-57.7190742162699
+point pressure_kPa=125 current_mA=6.70972661864248 vout_mV=-72.1680192213543
+point pressure_kPa=150 current_mA=6.70916371509856 vout_mV=-86.6189228764365
+point pressure_kPa=175 current_mA=6.70895275213491 vout_mV=-101.074189208544
+point pressure_kPa=200 current_mA=6.70909377752330 vout_mV=-115.536226487514
+csv_saved=D:/Github_codes/Flexible_Conductive_Film_CourseDesign_UESTC_24/Simulation_Results/Modified/modified_pressure_sweep.csv
+model_saved=D:/Github_codes/Flexible_Conductive_Film_CourseDesign_UESTC_24/COMSOL_Models/Pressure_Sensor_Modified.mph
+STATUS=SUCCESS

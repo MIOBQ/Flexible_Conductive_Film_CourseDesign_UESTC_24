@@ -1,0 +1,14 @@
+Data inputs verified: four measured COMSOL CSV files, each with 0-200 kPa in 25 kPa increments.
+No interpolation or synthetic simulation data used.
+A_Original=D:\Github_codes\Flexible_Conductive_Film_CourseDesign_UESTC_24\Simulation_Results\Original\original_pressure_sweep.csv
+B_GeometryOnly=D:\Github_codes\Flexible_Conductive_Film_CourseDesign_UESTC_24\Simulation_Results\GeometryOnly\geometry_only_pressure_sweep.csv
+C_MaterialOnly=D:\Github_codes\Flexible_Conductive_Film_CourseDesign_UESTC_24\Simulation_Results\MaterialOnly\material_only_pressure_sweep.csv
+D_GeometryMaterial=D:\Github_codes\Flexible_Conductive_Film_CourseDesign_UESTC_24\Simulation_Results\Modified\modified_pressure_sweep.csv
+A_Original: slope_mV_per_kPa=-0.539578549893973, intercept_mV=0.0317355712548277, R2=0.999999981320162
+B_GeometryOnly: slope_mV_per_kPa=-0.550419783299968, intercept_mV=0.112201788670355, R2=0.99999998241004
+C_MaterialOnly: slope_mV_per_kPa=-0.565543535538436, intercept_mV=0.0249453404141849, R2=0.999999979390393
+D_GeometryMaterial: slope_mV_per_kPa=-0.578139776551835, intercept_mV=0.0963855153392432, R2=0.999999980511059
+interaction Current_100kPa_mA=0.0407153671468299
+interaction Vout_100kPa_mV=-0.184446886203609
+interaction Voltage_Slope_mV_per_kPa=-0.00175500760740444
+STATUS=SUCCESS

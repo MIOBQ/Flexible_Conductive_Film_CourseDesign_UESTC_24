@@ -1,0 +1,5 @@
+CSV validation: 9 aligned finite points.
+2V S=-0.359719033263, b=0.0211570475029, R2=0.99999998132
+3V S=-0.539578549894, b=0.0317355712548, R2=0.99999998132
+Sensitivity ratio=0.666666666667
+Max deviations: I 1.53e-14; V(excluding |3V|<1mV) 5.16e-14; P 1.02e-14

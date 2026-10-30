@@ -1,0 +1,35 @@
+started=2026-10-29 19:33:42 +0800
+source_model=D:/Github_codes/Flexible_Conductive_Film_CourseDesign_UESTC_24/COMSOL_Models/Pressure_Sensor_Original.mph
+independent_copy=D:/Github_codes/Flexible_Conductive_Film_CourseDesign_UESTC_24/COMSOL_Models/Pressure_Sensor_MaterialOnly.mph
+before r1 lx=52.5 ly=10 rot=45
+before r2 lx=62.5 ly=20 rot=-45
+before interconnect_numberdensity=1.45e20[1/cm^3] sigma_mat=from_mat
+before piezoresistor_numberdensity=1.32e19[1/cm^3]
+after r1 lx=52.5 ly=10 rot=45
+after r2 lx=62.5 ly=20 rot=-45
+after interconnect_numberdensity=1.8e20[1/cm^3] sigma_mat=from_mat
+after piezoresistor_numberdensity=1.32e19[1/cm^3]
+geometry_rebuild=success
+mesh_rebuild=success
+faceload=[2, 6, 7, 8, 9, 11, 12, 13, 15, 16] expr=p1
+fixed1=[4, 5, 6, 14, 19, 23, 37, 48, 65, 69, 74, 76] fixed2=[3, 5, 14, 18]
+conductive=[3, 5, 6, 8, 9, 13, 14, 15, 18] piezoresistor=[9] coordinate_system=sys2
+terminal1=[11, 13] V0=3 terminal2=[7] terminal3=[72, 73] ground=[70]
+multiphysics=[pzrs1]
+baseline_100kPa_stationary=success
+baseline_100kPa_current_mA=6.21456961304782
+baseline_100kPa_vout_mV=-56.5310466978246
+pressure_sweep_stationary=success
+point pressure_kPa=0 current_mA=6.22156424470950 vout_mV=0.0339688967689877
+point pressure_kPa=25 current_mA=6.21935188853045 vout_mV=-14.1164355079919
+point pressure_kPa=50 current_mA=6.21744925176185 vout_mV=-28.2591336352873
+point pressure_kPa=75 current_mA=6.21585540637796 vout_mV=-42.3965359542844
+point pressure_kPa=100 current_mA=6.21456961304811 vout_mV=-56.5310466978251
+point pressure_kPa=125 current_mA=6.21359131976965 vout_mV=-70.6650665970525
+point pressure_kPa=150 current_mA=6.21292016088378 vout_mV=-84.8009956051179
+point pressure_kPa=175 current_mA=6.21255595645619 vout_mV=-98.9412356181736
+point pressure_kPa=200 current_mA=6.21249871203118 vout_mV=-113.088193201901
+baseline_vs_sweep_100kPa_current_relative_difference=4.7872193032546437E-14
+baseline_vs_sweep_100kPa_voltage_relative_difference=7.855669332001805E-15
+model_saved=D:/Github_codes/Flexible_Conductive_Film_CourseDesign_UESTC_24/COMSOL_Models/Pressure_Sensor_MaterialOnly.mph
+STATUS=SUCCESS

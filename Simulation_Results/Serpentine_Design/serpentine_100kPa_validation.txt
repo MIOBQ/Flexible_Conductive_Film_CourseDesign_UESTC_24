@@ -1,0 +1,7 @@
+SETTINGS p1=100[kPa], term1_V0=3
+START_STATIONARY
+OK current_mA=3.9223653068609026
+OK voltage_mV=-37.32796079218592
+OK power_mW=11.767095920582708
+SAVED=D:/Github_codes/Flexible_Conductive_Film_CourseDesign_UESTC_24/COMSOL_Models/Pressure_Sensor_Serpentine_100kPa.mph
+STATUS=SUCCESS

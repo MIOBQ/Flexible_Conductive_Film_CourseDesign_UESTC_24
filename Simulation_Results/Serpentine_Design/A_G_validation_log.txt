@@ -1,0 +1,2 @@
+PASS: A and G each contain exactly 0,25,...,200 kPa, with finite values and no duplicate pressures.
+PASS: G 100 kPa scan vs independent G single point: I difference=-2.17603712826531e-14 mA; Vout difference=-4.47641923528863e-13 mV.

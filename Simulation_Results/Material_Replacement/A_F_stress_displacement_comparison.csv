@@ -1,0 +1,10 @@
+A,dataset,shl1
+A,selection,[9] (piezoresistor shell face)
+A,piezoresistor_max_disp_m,2.451126675834598
+A,piezoresistor_max_mises_Pa,1.58888753327863E8
+A,shell_thickness,THICKNESS_NOT_VERIFIED
+F,dataset,shl1
+F,selection,[9] (piezoresistor shell face)
+F,piezoresistor_max_disp_m,1.2255633379172992
+F,piezoresistor_max_mises_Pa,7.94443766639315E7
+F,shell_thickness,THICKNESS_NOT_VERIFIED

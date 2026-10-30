@@ -1,0 +1,3 @@
+DATASETS=[dset1, shl1, dset2, dset3]
+RESULTS=[pg1, pg2, pg3, pg4, pg5, pg6, pg7, pg8, pg9]
+SUCCESS png=D:/Github_codes/Flexible_Conductive_Film_CourseDesign_UESTC_24/Figures/Serpentine_Design/G_current_density_100kPa.png bytes=2842

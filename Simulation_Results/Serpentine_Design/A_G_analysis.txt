@@ -1,0 +1,10 @@
+A/G nine-point comparison, derived only from actual COMSOL stationary solutions.
+
+A: Vout=-0.539578549894 P + 0.0317355712548 mV; R2=0.99999998132.
+G: Vout=-0.372220094499 P + -0.0580837811454 mV; R2=0.999996888787.
+
+At 100 kPa: A I=5.92093332 mA, Vout=-53.9276569 mV, P=17.7628 mW.
+G I=3.92236531 mA, Vout=-37.3279608 mV, P=11.7670959 mW.
+G vs A: current/power change=-33.7543%; output-voltage magnitude change=-30.7814%; sensitivity-magnitude change=-31.0165%.
+
+Interpretation: the serpentine Difference slots lower current and power and also lower voltage-sensitivity magnitude in this model. It is therefore a real geometry modification and a valid exploratory comparison, but does not outperform A on voltage sensitivity. The feature-derived geometry image is reconstructed from audited COMSOL geometry parameters and is explicitly not a GUI screenshot.

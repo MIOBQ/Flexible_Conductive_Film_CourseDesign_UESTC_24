@@ -1,0 +1,45 @@
+# Windows and Office temporary files
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.temp
+
+# COMSOL runtime state and transient files
+*.mph.lock
+*.mph.tmp
+*.mph.bak
+*.mph~
+*.mph.recover
+*.pid
+
+# Java/COMSOL automation build products and runtime logs
+Automation/**/*.class
+Automation/**/*.jar
+Automation/**/hs_err_pid*.log
+Automation/**/replay_pid*.log
+*.log
+
+# Failed/intermediate COMSOL geometry and diagnostic models.
+# The validated A-G model files remain trackable.
+COMSOL_Models/Diagnostics/
+COMSOL_Models/*_pre_*.mph
+COMSOL_Models/*_pending.mph
+COMSOL_Models/*Exploratory*.mph
+COMSOL_Models/Pressure_Sensor_TaperedX*.mph
+
+# Analysis caches and local editor state
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+
+# Keep reproducible course-design evidence under version control:
+#   COMSOL_Models/Pressure_Sensor_Original.mph
+#   COMSOL_Models/Pressure_Sensor_GeometryOnly.mph
+#   COMSOL_Models/Pressure_Sensor_MaterialOnly.mph
+#   COMSOL_Models/Pressure_Sensor_Modified.mph
+#   COMSOL_Models/Pressure_Sensor_Original_2V.mph
+#   COMSOL_Models/Pressure_Sensor_NType_SingleCrystal_Sweep.mph
+#   COMSOL_Models/Pressure_Sensor_Serpentine_Sweep.mph
+#   Simulation_Results/**/*.csv and Figures/**/*.png

@@ -1,0 +1,11 @@
+A,materials,[mat1, mat2]
+A,material,mat1,n-Silicon (single-crystal, lightly doped),[1, 2, 4, 7, 10, 11, 12, 16, 17]
+A,material,mat2,p-Silicon (single-crystal, lightly doped),[3, 5, 6, 8, 9, 13, 14, 15, 18]
+A,ecs,pzrm1,sel,[9],sigma_mat,from_mat,density,1.32e19[1/cm^3],cs,sys2
+A,ecs,cucn1,sel,[3, 5, 6, 8, 9, 13, 14, 15, 18],sigma_mat,from_mat,density,1.45e20[1/cm^3],cs,n/a
+A,multiphysics,[pzrs1]
+F,materials,[mat1]
+F,material,mat1,n-Silicon (single-crystal, lightly doped),[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+F,ecs,pzrm1,sel,[9],sigma_mat,from_mat,density,1.32e19[1/cm^3],cs,sys2
+F,ecs,cucn1,sel,[3, 5, 6, 8, 9, 13, 14, 15, 18],sigma_mat,from_mat,density,1.45e20[1/cm^3],cs,n/a
+F,multiphysics,[pzrs1]

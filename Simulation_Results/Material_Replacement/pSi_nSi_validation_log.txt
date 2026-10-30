@@ -1,0 +1,3 @@
+PASS: A and F each contain exactly 0,25,...,200 kPa and finite numerical values.
+PASS: F 100 kPa check vs independent single point: I error=9.1101328590284e-14%, Vout error=0%.
+Power, fits and ratios use only actual COMSOL scan CSV data.

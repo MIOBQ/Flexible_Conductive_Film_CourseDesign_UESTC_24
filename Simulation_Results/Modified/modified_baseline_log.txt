@@ -1,0 +1,33 @@
+started=2026-10-29 18:46:32 +0800
+model=Pressure_Sensor_Modified.mph
+geometry_length_unit=?m
+p1_before=100[kPa]
+geometry_before_r1_lx=52.5,ly=10,rot=45
+geometry_before_r2_lx=62.5,ly=20,rot=-45
+geometry_after_r1_lx=52.5,ly=11,rot=45
+geometry_after_r2_lx=62.5,ly=22,rot=-45
+interconnect_numberdensity_before=1.45e20[1/cm^3]
+interconnect_conductivity_source=from_mat
+piezoresistor_numberdensity_before=1.32e19[1/cm^3]
+interconnect_numberdensity_after=1.8e20[1/cm^3]
+piezoresistor_numberdensity_after=1.32e19[1/cm^3]
+geometry_rebuild=success
+mesh_rebuild=success
+faceload_entities=[2, 6, 7, 8, 9, 11, 12, 13, 15, 16],pressure=p1
+fixed1_entities=[4, 5, 6, 14, 19, 23, 38, 46, 63, 67, 72, 74]
+fixed2_entities=[3, 5, 14, 18]
+electric_current_entities=[3, 5, 6, 8, 9, 13, 14, 15, 18]
+piezoresistor_entities=[9],coordinate_system=sys2
+terminal1_entities=[11, 13],type=Voltage,V0=3
+terminal2_entities=[7],type=Current
+terminal3_entities=[70, 71],type=Current
+ground_entities=[68]
+multiphysics_tags=[pzrs1]
+p1_for_baseline=100[kPa]
+parametric_sweep_temporarily_disabled=true
+baseline_stationary_solve=success
+modified_ecs.I0_1_A=0.006710641632483782
+modified_ecs.V0_2_minus_ecs.V0_3_V=-0.05771907421626987
+parametric_sweep_restored_active=true
+model_saved=D:/Github_codes/Flexible_Conductive_Film_CourseDesign_UESTC_24/COMSOL_Models/Pressure_Sensor_Modified.mph
+STATUS=SUCCESS
